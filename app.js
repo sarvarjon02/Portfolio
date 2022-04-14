@@ -41,7 +41,18 @@ function PageTransitions(){
         element.classList.toggle('light-mode')
     })
 
+    var typed = new Typed(".typing", {
+        strings: ["YouTuber", "Bloger", "freelancer", "Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 
+  
 }
 PageTransitions();
 
+
+// (document).ready(function(){
+ 
+// })
